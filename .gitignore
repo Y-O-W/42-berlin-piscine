@@ -54,3 +54,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# ctags output
+tags
+
+# compiled binaries (42 executables have no extension)
+my_program
