@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "norminette: current file",
+			"type": "shell",
+			"command": "norminette",
+			"args": ["${file}"],
+			"group": "test",
+			"presentation": { "reveal": "always", "panel": "shared" }
+		},
+		{
+			"label": "norminette: current exercise",
+			"type": "shell",
+			"command": "norminette",
+			"args": ["${fileDirname}"],
+			"group": "test",
+			"presentation": { "reveal": "always", "panel": "shared" }
+		}
+	]
+}
