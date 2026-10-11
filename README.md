@@ -50,8 +50,16 @@ ruler, trailing whitespace trimmed, final newline, LF line endings, and format-o
 so no formatter reflows code against the Norm. `.vscode/tasks.json` adds
 *Terminal > Run Task > norminette: current file / current exercise*.
 
-The 42 header isn't built into VS Code; install a "42 Header" extension (or use `:Stdheader`
-in vim) and set your login/email.
+### VS Code extensions
+
+- [42 Header](https://marketplace.visualstudio.com/items?itemName=kube.42header)
+  (`kube.42header`): inserts the standard 42 header in `.c`/`.h` files. Set your login and
+  email in its settings so the header's author fields are correct.
+- [Codam norminette 3](https://marketplace.visualstudio.com/items?itemName=MariusvanWijk-JoppeKoers.codam-norminette-3)
+  (`MariusvanWijk-JoppeKoers.codam-norminette-3`): shows norminette errors in the editor.
+  It runs the local `norminette`, so that must be installed and on your `PATH`.
+
+In vim, use `:Stdheader` (or `F1`) on the 42 machines for the header.
 
 ## Project layout
 
