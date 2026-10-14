@@ -59,6 +59,14 @@ dkms.conf
 tags
 
 # compiled binaries (42 executables have no extension)
-my_program
+**/my_program
 test_program
-a.out
+**/a.out
+**/test_program
+**/*.out
+
+# Ignore temporary text files or test outputs
+**/*.txt
+
+# Ignore macOS system garbage files
+**/.DS_Store

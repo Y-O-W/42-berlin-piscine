@@ -1,0 +1,1 @@
+ls -pt | grep -v '^$' | paste -sd, - | sed 's/,/, /g'
